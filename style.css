@@ -579,13 +579,6 @@ footer p {
         padding: 20px;
     }
 
-    /* Social media icons */
-
-    .social-icons a {
-        font-size: 25px;
-        margin: 0 8px;
-    }
-
 }
 
 
@@ -679,3 +672,16 @@ button:active,
     transform: scale(0.95);
 }
 
+
+/* ===== social icons ===== */
+ .social-icons a {
+    font-size: 25px;
+    margin: 0 8px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #1abc9c;
+}
